@@ -393,6 +393,7 @@ export class ActionType {
                             Duration:Duration,
                             Text: value,
                             BroadcastTextId: 0,
+                            Emote: 1,
                             comment: 'tswow'
                         })
                 } else {
