@@ -929,5 +929,5 @@ export const Ids = {
     condition_types: new StaticIDGenerator('smart_events',100),
 
     /** Starts at 202500, highest base value is 202482 */
-    pool_template: new StaticIDGenerator('pool_template', 202500),
+    pool_template: new DynamicIDGenerator('pool_template', 202500),
 }
