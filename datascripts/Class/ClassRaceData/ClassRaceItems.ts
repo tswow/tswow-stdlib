@@ -1,6 +1,6 @@
-import { SQL } from "wotlkdata";
-import { MultiRowSystem } from "wotlkdata/wotlkdata/cell/systems/MultiRowSystem";
-import { playercreateinfo_itemRow } from "wotlkdata/wotlkdata/sql/types/playercreateinfo_item";
+import { SQL } from "wowdata";
+import { MultiRowSystem } from "wowdata/wowdata/cell/systems/MultiRowSystem";
+import { playercreateinfo_itemRow } from "wowdata/wowdata/sql/types/playercreateinfo_item";
 import { ItemTemplateRegistry } from "../../Item/ItemTemplate";
 import { MainEntity } from "../../Misc/Entity";
 import { ClassRegistry } from "../ClassRegistry";

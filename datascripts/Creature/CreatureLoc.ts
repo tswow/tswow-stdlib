@@ -14,9 +14,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { SQL } from "wotlkdata";
-import { Cell } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { Language } from "wotlkdata/wotlkdata/dbc/Localization";
+import { SQL } from "wowdata";
+import { Cell } from "wowdata/wowdata/cell/cells/Cell";
+import { Language } from "wowdata/wowdata/dbc/Localization";
 import { SQLLocSystem } from "../Misc/SQLLocSystem";
 import { CreatureTemplate } from "./CreatureTemplate";
 

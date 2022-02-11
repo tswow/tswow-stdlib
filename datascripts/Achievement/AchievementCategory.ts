@@ -1,7 +1,7 @@
-import { Cell } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { DBC } from "wotlkdata/wotlkdata/dbc/DBCFiles";
-import { Achievement_CategoryQuery, Achievement_CategoryRow } from "wotlkdata/wotlkdata/dbc/types/Achievement_Category";
-import { Table } from "wotlkdata/wotlkdata/table/Table";
+import { Cell } from "wowdata/wowdata/cell/cells/Cell";
+import { DBC } from "wowdata/wowdata/dbc/DBCFiles";
+import { Achievement_CategoryQuery, Achievement_CategoryRow } from "wowdata/wowdata/dbc/types/Achievement_Category";
+import { Table } from "wowdata/wowdata/table/Table";
 import { MainEntity } from "../Misc/Entity";
 import { DynamicIDGenerator, Ids } from "../Misc/Ids";
 import { RefDynamic } from "../Refs/Ref";

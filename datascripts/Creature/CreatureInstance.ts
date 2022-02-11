@@ -15,15 +15,15 @@
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
 
-import { finish } from "wotlkdata";
-import { makeEnumCell } from "wotlkdata/wotlkdata/cell/cells/EnumCell";
-import { makeMaskCell32 } from "wotlkdata/wotlkdata/cell/cells/MaskCell";
-import { Transient } from "wotlkdata/wotlkdata/cell/serialization/Transient";
-import { CellSystem } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { SQL } from "wotlkdata/wotlkdata/sql/SQLFiles";
-import { creatureRow } from "wotlkdata/wotlkdata/sql/types/creature";
-import { creature_addonRow } from "wotlkdata/wotlkdata/sql/types/creature_addon";
-import { instance_boss_creatureRow } from "wotlkdata/wotlkdata/sql/types/instance_boss_creature";
+import { finish } from "wowdata";
+import { makeEnumCell } from "wowdata/wowdata/cell/cells/EnumCell";
+import { makeMaskCell32 } from "wowdata/wowdata/cell/cells/MaskCell";
+import { Transient } from "wowdata/wowdata/cell/serialization/Transient";
+import { CellSystem } from "wowdata/wowdata/cell/systems/CellSystem";
+import { SQL } from "wowdata/wowdata/sql/SQLFiles";
+import { creatureRow } from "wowdata/wowdata/sql/types/creature";
+import { creature_addonRow } from "wowdata/wowdata/sql/types/creature_addon";
+import { instance_boss_creatureRow } from "wowdata/wowdata/sql/types/instance_boss_creature";
 import { CreatureGameEventsForward, GameEventModelEquipForward, GameEventNPCFlagForward, GameEventNPCVendorCreature } from "../GameEvent/GameEventRelations";
 import { MainEntity } from "../Misc/Entity";
 import { PositionMapXYZOCell } from "../Misc/PositionCell";

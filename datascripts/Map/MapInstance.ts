@@ -1,4 +1,4 @@
-import { CellWrapper } from "wotlkdata/wotlkdata/cell/cells/Cell";
+import { CellWrapper } from "wowdata/wowdata/cell/cells/Cell";
 import { DungeonMap } from "./Map";
 
 // also defined in TrinityCore/src/server/game/Scripting/ScriptMgr.h

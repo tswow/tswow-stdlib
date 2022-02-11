@@ -14,8 +14,8 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { DBC, DBCLoader, LUAXML, SQL } from "wotlkdata";
-import { BuildArgs } from "wotlkdata/wotlkdata/Settings";
+import { DBC, DBCLoader, LUAXML, SQL } from "wowdata";
+import { BuildArgs } from "wowdata/wowdata/Settings";
 import { AchievementRegistry } from "./Achievement/Achievement";
 import { AchievementCategoryRegistry } from "./Achievement/AchievementCategory";
 import { AreaRegistry } from "./Area/Area";

@@ -1,7 +1,7 @@
-import { DBC } from "wotlkdata";
-import { SoundAmbienceQuery, SoundAmbienceRow } from "wotlkdata/wotlkdata/dbc/types/SoundAmbience";
-import { all } from "wotlkdata/wotlkdata/query/Relations";
-import { Table } from "wotlkdata/wotlkdata/table/Table";
+import { DBC } from "wowdata";
+import { SoundAmbienceQuery, SoundAmbienceRow } from "wowdata/wowdata/dbc/types/SoundAmbience";
+import { all } from "wowdata/wowdata/query/Relations";
+import { Table } from "wowdata/wowdata/table/Table";
 import { MainEntity } from "../Misc/Entity";
 import { DynamicIDGenerator, Ids } from "../Misc/Ids";
 import { RegistryDynamic } from "../Refs/Registry";

@@ -14,10 +14,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { CellSystemTop, MulticastLocCell } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { MultirowSystemCached } from "wotlkdata/wotlkdata/cell/systems/MultiRowSystem";
-import { SpellRow } from "wotlkdata/wotlkdata/dbc/types/Spell";
-import { item_templateRow } from "wotlkdata/wotlkdata/sql/types/item_template";
+import { CellSystemTop, MulticastLocCell } from "wowdata/wowdata/cell/systems/CellSystem";
+import { MultirowSystemCached } from "wowdata/wowdata/cell/systems/MultiRowSystem";
+import { SpellRow } from "wowdata/wowdata/dbc/types/Spell";
+import { item_templateRow } from "wowdata/wowdata/sql/types/item_template";
 import { ChargesSystem } from "../Item/ItemSpells";
 import { ItemTemplate, ItemTemplateRegistry } from "../Item/ItemTemplate";
 import { Lock } from "../Locks/Lock";

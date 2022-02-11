@@ -1,8 +1,8 @@
-import { finish } from "wotlkdata";
-import { makeMaskCell32, MaskCellWrite } from "wotlkdata/wotlkdata/cell/cells/MaskCell";
-import { Transient } from "wotlkdata/wotlkdata/cell/serialization/Transient";
-import { BuildArgs } from "wotlkdata/wotlkdata/Settings";
-import { SQL } from "wotlkdata/wotlkdata/sql/SQLFiles";
+import { finish } from "wowdata";
+import { makeMaskCell32, MaskCellWrite } from "wowdata/wowdata/cell/cells/MaskCell";
+import { Transient } from "wowdata/wowdata/cell/serialization/Transient";
+import { BuildArgs } from "wowdata/wowdata/Settings";
+import { SQL } from "wowdata/wowdata/sql/SQLFiles";
 import { ClassRaceMaskEntry, ClassRaceMaskSystem } from "../Class/ClassRaceData/ClassRaceMaskSystem";
 import { ClassMask } from "../Class/ClassRegistry";
 import { CellBasic } from "../GameObject/ElevatorKeyframes";

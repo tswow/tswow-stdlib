@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { Cell } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { ArrayEntry, ArraySystem } from "wotlkdata/wotlkdata/cell/systems/ArraySystem";
-import { SQL } from "wotlkdata/wotlkdata/sql/SQLFiles";
-import { quest_templateQuery, quest_templateRow } from "wotlkdata/wotlkdata/sql/types/quest_template";
-import { Table } from "wotlkdata/wotlkdata/table/Table";
+import { Cell } from "wowdata/wowdata/cell/cells/Cell";
+import { ArrayEntry, ArraySystem } from "wowdata/wowdata/cell/systems/ArraySystem";
+import { SQL } from "wowdata/wowdata/sql/SQLFiles";
+import { quest_templateQuery, quest_templateRow } from "wowdata/wowdata/sql/types/quest_template";
+import { Table } from "wowdata/wowdata/table/Table";
 import { FactionRegistry } from "../Faction/Faction";
 import { ItemTemplateRegistry } from "../Item/ItemTemplate";
 import { ChildEntity, MainEntity } from "../Misc/Entity";

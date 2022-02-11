@@ -14,9 +14,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { CellWrapper } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { Bit, MaskCell, MaskCell32 } from "wotlkdata/wotlkdata/cell/cells/MaskCell";
-import { DBCUIntArrayCell } from "wotlkdata/wotlkdata/dbc/DBCCell";
+import { CellWrapper } from "wowdata/wowdata/cell/cells/Cell";
+import { Bit, MaskCell, MaskCell32 } from "wowdata/wowdata/cell/cells/MaskCell";
+import { DBCUIntArrayCell } from "wowdata/wowdata/dbc/DBCCell";
 import { CellBasic } from "../GameObject/ElevatorKeyframes";
 import { Spell } from "./Spell";
 import { SpellEffect } from "./SpellEffect";

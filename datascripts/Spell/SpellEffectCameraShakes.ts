@@ -1,6 +1,6 @@
-import { DBC } from "wotlkdata";
-import { SpellEffectCameraShakesQuery, SpellEffectCameraShakesRow } from "wotlkdata/wotlkdata/dbc/types/SpellEffectCameraShakes";
-import { Table } from "wotlkdata/wotlkdata/table/Table";
+import { DBC } from "wowdata";
+import { SpellEffectCameraShakesQuery, SpellEffectCameraShakesRow } from "wowdata/wowdata/dbc/types/SpellEffectCameraShakes";
+import { Table } from "wowdata/wowdata/table/Table";
 import { MainEntity } from "../Misc/Entity";
 import { DynamicIDGenerator, Ids } from "../Misc/Ids";
 import { RegistryDynamic } from "../Refs/Registry";

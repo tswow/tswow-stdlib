@@ -1,6 +1,6 @@
-import { makeMask, MaskCon } from "wotlkdata/wotlkdata/cell/cells/MaskCell";
-import { CellSystem } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { SQL } from "wotlkdata/wotlkdata/sql/SQLFiles";
+import { makeMask, MaskCon } from "wowdata/wowdata/cell/cells/MaskCell";
+import { CellSystem } from "wowdata/wowdata/cell/systems/CellSystem";
+import { SQL } from "wowdata/wowdata/sql/SQLFiles";
 import { RaceMask } from "../Race/RaceType";
 import { Class } from "./Class";
 

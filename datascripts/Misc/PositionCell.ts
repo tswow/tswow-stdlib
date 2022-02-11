@@ -14,9 +14,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { Cell } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { Transient } from "wotlkdata/wotlkdata/cell/serialization/Transient";
-import { CellSystem } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
+import { Cell } from "wowdata/wowdata/cell/cells/Cell";
+import { Transient } from "wowdata/wowdata/cell/serialization/Transient";
+import { CellSystem } from "wowdata/wowdata/cell/systems/CellSystem";
 import { MapRegistry } from "../Map/Maps";
 import { Position } from "./Position";
 

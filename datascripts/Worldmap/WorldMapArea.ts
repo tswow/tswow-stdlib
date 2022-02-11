@@ -1,7 +1,7 @@
-import { DBC } from "wotlkdata";
-import { MultiRowSystem } from "wotlkdata/wotlkdata/cell/systems/MultiRowSystem";
-import { WorldMapAreaQuery, WorldMapAreaRow } from "wotlkdata/wotlkdata/dbc/types/WorldMapArea";
-import { Table } from "wotlkdata/wotlkdata/table/Table";
+import { DBC } from "wowdata";
+import { MultiRowSystem } from "wowdata/wowdata/cell/systems/MultiRowSystem";
+import { WorldMapAreaQuery, WorldMapAreaRow } from "wowdata/wowdata/dbc/types/WorldMapArea";
+import { Table } from "wowdata/wowdata/table/Table";
 import { AreaRegistry } from "../Area/Area";
 import { MapRegistry } from "../Map/Maps";
 import { MainEntity } from "../Misc/Entity";

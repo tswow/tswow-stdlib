@@ -1,9 +1,9 @@
-import { DBC } from "wotlkdata";
-import { Cell } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { Transient } from "wotlkdata/wotlkdata/cell/serialization/Transient";
-import { CellSystem, CellSystemTop } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { ZoneMusicQuery, ZoneMusicRow } from "wotlkdata/wotlkdata/dbc/types/ZoneMusic";
-import { Table } from "wotlkdata/wotlkdata/table/Table";
+import { DBC } from "wowdata";
+import { Cell } from "wowdata/wowdata/cell/cells/Cell";
+import { Transient } from "wowdata/wowdata/cell/serialization/Transient";
+import { CellSystem, CellSystemTop } from "wowdata/wowdata/cell/systems/CellSystem";
+import { ZoneMusicQuery, ZoneMusicRow } from "wowdata/wowdata/dbc/types/ZoneMusic";
+import { Table } from "wowdata/wowdata/table/Table";
 import { Ids, StaticIDGenerator } from "../Misc/Ids";
 import { RefStatic } from "../Refs/Ref";
 import { RegistryStatic } from "../Refs/Registry";

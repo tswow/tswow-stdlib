@@ -1,9 +1,9 @@
-import { SQL } from "wotlkdata";
-import { Cell } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { Language } from "wotlkdata/wotlkdata/dbc/Localization";
-import { loc_constructor } from "wotlkdata/wotlkdata/primitives";
-import { page_textQuery, page_textRow } from "wotlkdata/wotlkdata/sql/types/page_text";
-import { Table } from "wotlkdata/wotlkdata/table/Table";
+import { SQL } from "wowdata";
+import { Cell } from "wowdata/wowdata/cell/cells/Cell";
+import { Language } from "wowdata/wowdata/dbc/Localization";
+import { loc_constructor } from "wowdata/wowdata/primitives";
+import { page_textQuery, page_textRow } from "wowdata/wowdata/sql/types/page_text";
+import { Table } from "wowdata/wowdata/table/Table";
 import { MainEntity } from "../Misc/Entity";
 import { DynamicIDGenerator, Ids } from "../Misc/Ids";
 import { SQLLocSystem } from "../Misc/SQLLocSystem";

@@ -1,5 +1,5 @@
-import { CellSystem } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { SQL } from "wotlkdata/wotlkdata/sql/SQLFiles";
+import { CellSystem } from "wowdata/wowdata/cell/systems/CellSystem";
+import { SQL } from "wowdata/wowdata/sql/SQLFiles";
 import { ClassRacePair } from "./ClassRaces";
 
 const playerCreateInfos: {

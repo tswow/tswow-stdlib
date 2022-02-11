@@ -1,6 +1,6 @@
-import { Cell } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { DBC } from "wotlkdata/wotlkdata/dbc/DBCFiles";
-import { VehicleUIIndSeatRow } from "wotlkdata/wotlkdata/dbc/types/VehicleUIIndSeat";
+import { Cell } from "wowdata/wowdata/cell/cells/Cell";
+import { DBC } from "wowdata/wowdata/dbc/DBCFiles";
+import { VehicleUIIndSeatRow } from "wowdata/wowdata/dbc/types/VehicleUIIndSeat";
 import { MainEntity } from "../Misc/Entity";
 import { Ids } from "../Misc/Ids";
 import { PositionXYCell } from "../Misc/PositionCell";

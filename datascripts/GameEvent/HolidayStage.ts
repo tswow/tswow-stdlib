@@ -1,9 +1,9 @@
-import { DummyCell } from "wotlkdata/wotlkdata/cell/cells/DummyCell";
-import { MulticastCell } from "wotlkdata/wotlkdata/cell/cells/MulticastCell";
-import { ArrayEntry, ArraySystem } from "wotlkdata/wotlkdata/cell/systems/ArraySystem";
-import { MultiRowSystem } from "wotlkdata/wotlkdata/cell/systems/MultiRowSystem";
-import { SQL } from "wotlkdata/wotlkdata/sql/SQLFiles";
-import { holiday_datesRow } from "wotlkdata/wotlkdata/sql/types/holiday_dates";
+import { DummyCell } from "wowdata/wowdata/cell/cells/DummyCell";
+import { MulticastCell } from "wowdata/wowdata/cell/cells/MulticastCell";
+import { ArrayEntry, ArraySystem } from "wowdata/wowdata/cell/systems/ArraySystem";
+import { MultiRowSystem } from "wowdata/wowdata/cell/systems/MultiRowSystem";
+import { SQL } from "wowdata/wowdata/sql/SQLFiles";
+import { holiday_datesRow } from "wowdata/wowdata/sql/types/holiday_dates";
 import { CellBasic } from "../GameObject/ElevatorKeyframes";
 import { DurationCell, TimeUnit } from "../Misc/DurationCell";
 import { makeSQLDate } from "./Date";

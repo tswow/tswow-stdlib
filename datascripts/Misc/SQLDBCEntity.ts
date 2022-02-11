@@ -1,9 +1,9 @@
-import { Cell, CPrim } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { PendingCell } from "wotlkdata/wotlkdata/cell/cells/PendingCell";
-import { Transient } from "wotlkdata/wotlkdata/cell/serialization/Transient";
-import { CellSystem, CellSystemTop, LocSystem } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { Language } from "wotlkdata/wotlkdata/dbc/Localization";
-import { loc_constructor } from "wotlkdata/wotlkdata/primitives";
+import { Cell, CPrim } from "wowdata/wowdata/cell/cells/Cell";
+import { PendingCell } from "wowdata/wowdata/cell/cells/PendingCell";
+import { Transient } from "wowdata/wowdata/cell/serialization/Transient";
+import { CellSystem, CellSystemTop, LocSystem } from "wowdata/wowdata/cell/systems/CellSystem";
+import { Language } from "wowdata/wowdata/dbc/Localization";
+import { loc_constructor } from "wowdata/wowdata/primitives";
 
 export class SQLDBCChild<O,DBC,SQL,T extends SQLDBCEntity<DBC,SQL>> extends CellSystem<O> {
     private container: T;

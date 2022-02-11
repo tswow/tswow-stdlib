@@ -14,10 +14,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { DBC, SQL } from "wotlkdata"
-import { GameObjectDisplayInfoQuery, GameObjectDisplayInfoRow } from "wotlkdata/wotlkdata/dbc/types/GameObjectDisplayInfo"
-import { gameobjectQuery, gameobjectRow } from "wotlkdata/wotlkdata/sql/types/gameobject"
-import { Table } from "wotlkdata/wotlkdata/table/Table"
+import { DBC, SQL } from "wowdata"
+import { GameObjectDisplayInfoQuery, GameObjectDisplayInfoRow } from "wowdata/wowdata/dbc/types/GameObjectDisplayInfo"
+import { gameobjectQuery, gameobjectRow } from "wowdata/wowdata/sql/types/gameobject"
+import { Table } from "wowdata/wowdata/table/Table"
 import { DynamicIDGenerator, Ids, StaticIDGenerator } from "../Misc/Ids"
 import { RegistryDynamic, RegistryStatic } from "../Refs/Registry"
 import { GameObjectDisplay } from "./GameObjectDisplay"

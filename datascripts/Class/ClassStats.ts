@@ -14,14 +14,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { Cell } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { makeEnumCell } from "wotlkdata/wotlkdata/cell/cells/EnumCell";
-import { CellSystem } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { DBCFile } from "wotlkdata/wotlkdata/dbc/DBCFile";
-import { DBC } from "wotlkdata/wotlkdata/dbc/DBCFiles";
-import { SQL } from "wotlkdata/wotlkdata/sql/SQLFiles";
-import { class_stat_formulasRow } from "wotlkdata/wotlkdata/sql/types/class_stat_formulas";
-import { class_stat_valuesRow } from "wotlkdata/wotlkdata/sql/types/class_stat_values";
+import { Cell } from "wowdata/wowdata/cell/cells/Cell";
+import { makeEnumCell } from "wowdata/wowdata/cell/cells/EnumCell";
+import { CellSystem } from "wowdata/wowdata/cell/systems/CellSystem";
+import { DBCFile } from "wowdata/wowdata/dbc/DBCFile";
+import { DBC } from "wowdata/wowdata/dbc/DBCFiles";
+import { SQL } from "wowdata/wowdata/sql/SQLFiles";
+import { class_stat_formulasRow } from "wowdata/wowdata/sql/types/class_stat_formulas";
+import { class_stat_valuesRow } from "wowdata/wowdata/sql/types/class_stat_values";
 import { MaybeSQLEntity } from "../Misc/SQLDBCEntity";
 import { Class } from "./Class";
 import { ClassIDs } from "./ClassIDs";

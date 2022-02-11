@@ -1,6 +1,6 @@
-import { CPrim } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { ArrayEntry, ArraySystem } from "wotlkdata/wotlkdata/cell/systems/ArraySystem";
-import { DBCArrayCell } from "wotlkdata/wotlkdata/dbc/DBCCell";
+import { CPrim } from "wowdata/wowdata/cell/cells/Cell";
+import { ArrayEntry, ArraySystem } from "wowdata/wowdata/cell/systems/ArraySystem";
+import { DBCArrayCell } from "wowdata/wowdata/dbc/DBCCell";
 
 export class SingleArrayEntry<D extends CPrim,T> extends ArrayEntry<T> {
     protected array: DBCArrayCell<D,any>;

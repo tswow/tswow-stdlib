@@ -1,8 +1,8 @@
 import * as fs from "fs";
 import * as path from "path";
-import { DBC, finish } from "wotlkdata";
-import { FileChangeModule } from "wotlkdata/util/FileChanges";
-import { AllModules, BuildArgs, dataset } from "wotlkdata/wotlkdata/Settings";
+import { DBC, finish } from "wowdata";
+import { FileChangeModule } from "wowdata/util/FileChanges";
+import { AllModules, BuildArgs, dataset } from "wowdata/wowdata/Settings";
 import { registeredAreas } from "../Area/Area";
 import { TSImages } from "../Images/Image";
 import { Colors } from "../Misc/Color";

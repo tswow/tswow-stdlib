@@ -14,16 +14,16 @@
 * You should have received a copy of the GNU General Public License
 * along with this program. If not, see <https://www.gnu.org/licenses/>.
 */
-import { DBC } from "wotlkdata";
-import { makeEnumCell } from "wotlkdata/wotlkdata/cell/cells/EnumCell";
-import { makeMaskCell32 } from "wotlkdata/wotlkdata/cell/cells/MaskCell";
-import { MulticastCell } from "wotlkdata/wotlkdata/cell/cells/MulticastCell";
-import { Transient } from "wotlkdata/wotlkdata/cell/serialization/Transient";
-import { CellSystem } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { ItemRow } from "wotlkdata/wotlkdata/dbc/types/Item";
-import { SQL } from "wotlkdata/wotlkdata/sql/SQLFiles";
-import { item_templateQuery, item_templateRow } from "wotlkdata/wotlkdata/sql/types/item_template";
-import { Table } from "wotlkdata/wotlkdata/table/Table";
+import { DBC } from "wowdata";
+import { makeEnumCell } from "wowdata/wowdata/cell/cells/EnumCell";
+import { makeMaskCell32 } from "wowdata/wowdata/cell/cells/MaskCell";
+import { MulticastCell } from "wowdata/wowdata/cell/cells/MulticastCell";
+import { Transient } from "wowdata/wowdata/cell/serialization/Transient";
+import { CellSystem } from "wowdata/wowdata/cell/systems/CellSystem";
+import { ItemRow } from "wowdata/wowdata/dbc/types/Item";
+import { SQL } from "wowdata/wowdata/sql/SQLFiles";
+import { item_templateQuery, item_templateRow } from "wowdata/wowdata/sql/types/item_template";
+import { Table } from "wowdata/wowdata/table/Table";
 import { ClassMask } from "../Class/ClassRegistry";
 import { EnchantmentRegistry } from "../Enchant/Enchantment";
 import { HolidayRegistry } from "../GameEvent/Holiday";

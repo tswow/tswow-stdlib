@@ -1,5 +1,5 @@
-import { SQL } from "wotlkdata/wotlkdata/sql/SQLFiles";
-import { spell_bonus_dataRow } from "wotlkdata/wotlkdata/sql/types/spell_bonus_data";
+import { SQL } from "wowdata/wowdata/sql/SQLFiles";
+import { spell_bonus_dataRow } from "wowdata/wowdata/sql/types/spell_bonus_data";
 import { MaybeSQLEntity } from "../Misc/SQLDBCEntity";
 import { Spell } from "./Spell";
 

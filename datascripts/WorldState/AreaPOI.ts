@@ -1,6 +1,6 @@
-import { makeMaskCell32 } from "wotlkdata/wotlkdata/cell/cells/MaskCell";
-import { DBC } from "wotlkdata/wotlkdata/dbc/DBCFiles";
-import { AreaPOIQuery, AreaPOIRow } from "wotlkdata/wotlkdata/dbc/types/AreaPOI";
+import { makeMaskCell32 } from "wowdata/wowdata/cell/cells/MaskCell";
+import { DBC } from "wowdata/wowdata/dbc/DBCFiles";
+import { AreaPOIQuery, AreaPOIRow } from "wowdata/wowdata/dbc/types/AreaPOI";
 import { AreaRegistry } from "../Area/Area";
 import { FactionRegistry } from "../Faction/Faction";
 import { MapRegistry } from "../Map/Maps";

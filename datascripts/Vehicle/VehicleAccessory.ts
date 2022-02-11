@@ -1,8 +1,8 @@
-import { makeEnumCell } from "wotlkdata/wotlkdata/cell/cells/EnumCell";
-import { MultiRowSystem } from "wotlkdata/wotlkdata/cell/systems/MultiRowSystem";
-import { SQL } from "wotlkdata/wotlkdata/sql/SQLFiles";
-import { vehicle_accessoryRow } from "wotlkdata/wotlkdata/sql/types/vehicle_accessory";
-import { vehicle_template_accessoryRow } from "wotlkdata/wotlkdata/sql/types/vehicle_template_accessory";
+import { makeEnumCell } from "wowdata/wowdata/cell/cells/EnumCell";
+import { MultiRowSystem } from "wowdata/wowdata/cell/systems/MultiRowSystem";
+import { SQL } from "wowdata/wowdata/sql/SQLFiles";
+import { vehicle_accessoryRow } from "wowdata/wowdata/sql/types/vehicle_accessory";
+import { vehicle_template_accessoryRow } from "wowdata/wowdata/sql/types/vehicle_template_accessory";
 import { CreatureInstance } from "../Creature/CreatureInstance";
 import { CreatureInstanceRegistry, CreatureTemplateRegistry } from "../Creature/Creatures";
 import { CreatureTemplate } from "../Creature/CreatureTemplate";

@@ -14,14 +14,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { SQL } from "wotlkdata";
-import { Cell } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { DummyCell } from "wotlkdata/wotlkdata/cell/cells/DummyCell";
-import { PendingCell } from "wotlkdata/wotlkdata/cell/cells/PendingCell";
-import { ArrayEntry, ArraySystem } from "wotlkdata/wotlkdata/cell/systems/ArraySystem";
-import { CellSystem, LocSystem } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { Language } from "wotlkdata/wotlkdata/dbc/Localization";
-import { iterLocConstructor, loc_constructor } from "wotlkdata/wotlkdata/primitives";
+import { SQL } from "wowdata";
+import { Cell } from "wowdata/wowdata/cell/cells/Cell";
+import { DummyCell } from "wowdata/wowdata/cell/cells/DummyCell";
+import { PendingCell } from "wowdata/wowdata/cell/cells/PendingCell";
+import { ArrayEntry, ArraySystem } from "wowdata/wowdata/cell/systems/ArraySystem";
+import { CellSystem, LocSystem } from "wowdata/wowdata/cell/systems/CellSystem";
+import { Language } from "wowdata/wowdata/dbc/Localization";
+import { iterLocConstructor, loc_constructor } from "wowdata/wowdata/primitives";
 import { ItemTemplateRegistry } from "../Item/ItemTemplate";
 import { Quest } from "./Quest";
 

@@ -14,8 +14,8 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { SQL } from "wotlkdata";
-import { skill_fishing_base_levelRow } from "wotlkdata/wotlkdata/sql/types/skill_fishing_base_level";
+import { SQL } from "wowdata";
+import { skill_fishing_base_levelRow } from "wowdata/wowdata/sql/types/skill_fishing_base_level";
 import { MaybeSQLEntity } from "../Misc/SQLDBCEntity";
 import { Area } from "./Area";
 

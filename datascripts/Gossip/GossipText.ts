@@ -14,13 +14,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { Cell } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { Transient } from "wotlkdata/wotlkdata/cell/serialization/Transient";
-import { ArrayEntry, ArraySystem } from "wotlkdata/wotlkdata/cell/systems/ArraySystem";
-import { Language } from "wotlkdata/wotlkdata/dbc/Localization";
-import { loc_constructor } from "wotlkdata/wotlkdata/primitives";
-import { SQL } from "wotlkdata/wotlkdata/sql/SQLFiles";
-import { npc_textRow } from "wotlkdata/wotlkdata/sql/types/npc_text";
+import { Cell } from "wowdata/wowdata/cell/cells/Cell";
+import { Transient } from "wowdata/wowdata/cell/serialization/Transient";
+import { ArrayEntry, ArraySystem } from "wowdata/wowdata/cell/systems/ArraySystem";
+import { Language } from "wowdata/wowdata/dbc/Localization";
+import { loc_constructor } from "wowdata/wowdata/primitives";
+import { SQL } from "wowdata/wowdata/sql/SQLFiles";
+import { npc_textRow } from "wowdata/wowdata/sql/types/npc_text";
 import { GenderedText } from "../Misc/GenderedText";
 import { Ids } from "../Misc/Ids";
 import { SQLLocSystem } from "../Misc/SQLLocSystem";

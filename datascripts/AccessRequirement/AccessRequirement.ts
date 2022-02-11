@@ -1,6 +1,6 @@
-import { SQL } from "wotlkdata";
-import { CellSystem } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { access_requirementQuery, access_requirementRow } from "wotlkdata/wotlkdata/sql/types/access_requirement";
+import { SQL } from "wowdata";
+import { CellSystem } from "wowdata/wowdata/cell/systems/CellSystem";
+import { access_requirementQuery, access_requirementRow } from "wowdata/wowdata/sql/types/access_requirement";
 import { AchievementRegistry } from "../Achievement/Achievement";
 import { ItemTemplateRegistry } from "../Item/ItemTemplate";
 import { MapRegistry } from "../Map/Maps";

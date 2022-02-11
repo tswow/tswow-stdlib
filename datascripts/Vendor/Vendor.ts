@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { SQL } from "wotlkdata";
-import { makeMaskCell32 } from "wotlkdata/wotlkdata/cell/cells/MaskCell";
-import { CellSystemTop } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { MultiRowSystem } from "wotlkdata/wotlkdata/cell/systems/MultiRowSystem";
-import { npc_vendorRow } from "wotlkdata/wotlkdata/sql/types/npc_vendor";
+import { SQL } from "wowdata";
+import { makeMaskCell32 } from "wowdata/wowdata/cell/cells/MaskCell";
+import { CellSystemTop } from "wowdata/wowdata/cell/systems/CellSystem";
+import { MultiRowSystem } from "wowdata/wowdata/cell/systems/MultiRowSystem";
+import { npc_vendorRow } from "wowdata/wowdata/sql/types/npc_vendor";
 import { ClassMask } from "../Class/ClassRegistry";
 import { CreatureTemplateRegistry } from "../Creature/Creatures";
 import { ExtendedCostRegistry } from "../ExtendedCost/ExtendedCost";

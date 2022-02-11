@@ -1,7 +1,7 @@
-import { DBC } from "wotlkdata";
-import { Cell } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { MultiRowSystem } from "wotlkdata/wotlkdata/cell/systems/MultiRowSystem";
-import { WorldStateZoneSoundsRow } from "wotlkdata/wotlkdata/dbc/types/WorldStateZoneSounds";
+import { DBC } from "wowdata";
+import { Cell } from "wowdata/wowdata/cell/cells/Cell";
+import { MultiRowSystem } from "wowdata/wowdata/cell/systems/MultiRowSystem";
+import { WorldStateZoneSoundsRow } from "wowdata/wowdata/dbc/types/WorldStateZoneSounds";
 import { AreaRegistry } from "../Area/Area";
 import { WMOAreaRegistry } from "../Area/WMOArea";
 import { MainEntity } from "../Misc/Entity";

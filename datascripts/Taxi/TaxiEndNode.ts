@@ -1,7 +1,7 @@
-import { CellSystem } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { TaxiNodesQuery, TaxiNodesRow } from "wotlkdata/wotlkdata/dbc/types/TaxiNodes";
-import { Table } from "wotlkdata/wotlkdata/table/Table";
-import { DBC } from "wotlkdata/wotlkdata/wotlkdata";
+import { DBC } from "wowdata";
+import { CellSystem } from "wowdata/wowdata/cell/systems/CellSystem";
+import { TaxiNodesQuery, TaxiNodesRow } from "wowdata/wowdata/dbc/types/TaxiNodes";
+import { Table } from "wowdata/wowdata/table/Table";
 import { MainEntity } from "../Misc/Entity";
 import { Ids, StaticIDGenerator } from "../Misc/Ids";
 import { PositionMapXYZCell } from "../Misc/PositionCell";

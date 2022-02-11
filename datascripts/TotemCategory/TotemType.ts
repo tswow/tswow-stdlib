@@ -1,5 +1,5 @@
-import { Cell } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { CellSystemTop } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
+import { Cell } from "wowdata/wowdata/cell/cells/Cell";
+import { CellSystemTop } from "wowdata/wowdata/cell/systems/CellSystem";
 import { Ids } from "../Misc/Ids";
 import { DynamicRegistry, makeRefDynamic } from "../Refs/Ref";
 

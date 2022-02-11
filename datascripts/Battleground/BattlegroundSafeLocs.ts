@@ -1,7 +1,7 @@
-import { DBC, finish } from "wotlkdata";
-import { Cell } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { CellSystem } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { SQL } from "wotlkdata/wotlkdata/sql/SQLFiles";
+import { DBC, finish } from "wowdata";
+import { Cell } from "wowdata/wowdata/cell/cells/Cell";
+import { CellSystem } from "wowdata/wowdata/cell/systems/CellSystem";
+import { SQL } from "wowdata/wowdata/sql/SQLFiles";
 import { WorldSafeLocRef } from "../WorldSafeLocs/WorldSafeLocs";
 
 export class BattlegroundSafeLoc<T> extends CellSystem<T> {

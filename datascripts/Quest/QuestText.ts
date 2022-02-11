@@ -14,12 +14,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { Cell } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { CellSystem } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { Language } from "wotlkdata/wotlkdata/dbc/Localization";
-import { SQL } from "wotlkdata/wotlkdata/sql/SQLFiles";
-import { quest_offer_rewardRow } from "wotlkdata/wotlkdata/sql/types/quest_offer_reward";
-import { quest_request_itemsRow } from "wotlkdata/wotlkdata/sql/types/quest_request_items";
+import { Cell } from "wowdata/wowdata/cell/cells/Cell";
+import { CellSystem } from "wowdata/wowdata/cell/systems/CellSystem";
+import { Language } from "wowdata/wowdata/dbc/Localization";
+import { SQL } from "wowdata/wowdata/sql/SQLFiles";
+import { quest_offer_rewardRow } from "wowdata/wowdata/sql/types/quest_offer_reward";
+import { quest_request_itemsRow } from "wowdata/wowdata/sql/types/quest_request_items";
 import { SQLLocSystem } from "../Misc/SQLLocSystem";
 import { Quest } from "./Quest";
 

@@ -1,7 +1,7 @@
-import { DBC, sort } from "wotlkdata";
-import { CellReadOnly } from "wotlkdata/wotlkdata/cell/cells/CellReadOnly";
-import { MultiRowSystem } from "wotlkdata/wotlkdata/cell/systems/MultiRowSystem";
-import { PvpDifficultyRow } from "wotlkdata/wotlkdata/dbc/types/PvpDifficulty";
+import { DBC, sort } from "wowdata";
+import { CellReadOnly } from "wowdata/wowdata/cell/cells/CellReadOnly";
+import { MultiRowSystem } from "wowdata/wowdata/cell/systems/MultiRowSystem";
+import { PvpDifficultyRow } from "wowdata/wowdata/dbc/types/PvpDifficulty";
 import { MainEntity } from "../Misc/Entity";
 import { Ids } from "../Misc/Ids";
 import { MinMaxCell } from "../Misc/LimitCells";

@@ -14,10 +14,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { finish } from "wotlkdata";
-import { FileChangeModule } from "wotlkdata/util/FileChanges";
-import { wfs } from "wotlkdata/util/FileSystem";
-import { ipaths } from "wotlkdata/wotlkdata/Settings";
+import { finish } from "wowdata";
+import { FileChangeModule } from "wowdata/util/FileChanges";
+import { wfs } from "wowdata/util/FileSystem";
+import { ipaths } from "wowdata/wowdata/Settings";
 import { generateBLP } from "./BLP";
 import { onDirtyPNG } from "./PNG";
 

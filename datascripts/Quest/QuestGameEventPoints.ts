@@ -1,7 +1,7 @@
-import { SQL } from "wotlkdata";
-import { Cell } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { CellSystem } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { game_event_quest_conditionRow } from "wotlkdata/wotlkdata/sql/types/game_event_quest_condition";
+import { SQL } from "wowdata";
+import { Cell } from "wowdata/wowdata/cell/cells/Cell";
+import { CellSystem } from "wowdata/wowdata/cell/systems/CellSystem";
+import { game_event_quest_conditionRow } from "wowdata/wowdata/sql/types/game_event_quest_condition";
 import { GameEventCondition } from "../GameEvent/GameEventCondition";
 import { MaybeSQLEntity } from "../Misc/SQLDBCEntity";
 import { Quest } from "./Quest";

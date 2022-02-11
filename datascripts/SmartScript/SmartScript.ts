@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { Transient } from "wotlkdata/wotlkdata/cell/serialization/Transient";
-import { CellSystemTop } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { SQLCellReadOnly } from "wotlkdata/wotlkdata/sql/SQLCell";
-import { SQL } from "wotlkdata/wotlkdata/sql/SQLFiles";
-import { smart_scriptsCreator, smart_scriptsRow } from "wotlkdata/wotlkdata/sql/types/smart_scripts";
+import { Transient } from "wowdata/wowdata/cell/serialization/Transient";
+import { CellSystemTop } from "wowdata/wowdata/cell/systems/CellSystem";
+import { SQLCellReadOnly } from "wowdata/wowdata/sql/SQLCell";
+import { SQL } from "wowdata/wowdata/sql/SQLFiles";
+import { smart_scriptsCreator, smart_scriptsRow } from "wowdata/wowdata/sql/types/smart_scripts";
 import { Condition } from "../Conditions/Condition";
 import { PercentCell } from "../Misc/PercentCell";
 import { ActionType } from "./ActionType";

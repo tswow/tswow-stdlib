@@ -1,6 +1,6 @@
-import { SQL } from "wotlkdata";
-import { CellSystem } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { trainerRow } from "wotlkdata/wotlkdata/sql/types/trainer";
+import { SQL } from "wowdata";
+import { CellSystem } from "wowdata/wowdata/cell/systems/CellSystem";
+import { trainerRow } from "wowdata/wowdata/sql/types/trainer";
 import { Ids } from "../Misc/Ids";
 import { TrainerPlain } from "../Trainer/Trainer";
 import { CreatureTemplate } from "./CreatureTemplate";

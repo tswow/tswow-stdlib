@@ -1,6 +1,6 @@
 import * as fs from 'fs';
-import { finish, luaxml } from "wotlkdata";
-import { BuildArgs, dataset, ipaths } from 'wotlkdata/wotlkdata/Settings';
+import { finish, luaxml } from "wowdata";
+import { BuildArgs, dataset, ipaths } from 'wowdata/wowdata/Settings';
 import { TSImage, TSImages } from "../Images/Image";
 import { ClassRegistry } from './ClassRegistry';
 

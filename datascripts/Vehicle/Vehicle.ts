@@ -1,9 +1,9 @@
-import { DBC } from "wotlkdata";
-import { makeMaskCell32 } from "wotlkdata/wotlkdata/cell/cells/MaskCell";
-import { ArrayEntry, ArraySystem } from "wotlkdata/wotlkdata/cell/systems/ArraySystem";
-import { CellSystem } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { VehicleQuery, VehicleRow } from "wotlkdata/wotlkdata/dbc/types/Vehicle";
-import { Table } from "wotlkdata/wotlkdata/table/Table";
+import { DBC } from "wowdata";
+import { makeMaskCell32 } from "wowdata/wowdata/cell/cells/MaskCell";
+import { ArrayEntry, ArraySystem } from "wowdata/wowdata/cell/systems/ArraySystem";
+import { CellSystem } from "wowdata/wowdata/cell/systems/CellSystem";
+import { VehicleQuery, VehicleRow } from "wowdata/wowdata/dbc/types/Vehicle";
+import { Table } from "wowdata/wowdata/table/Table";
 import { ArrayRefSystem } from "../Misc/ArrayRefSystem";
 import { MainEntity } from "../Misc/Entity";
 import { DynamicIDGenerator, Ids } from "../Misc/Ids";

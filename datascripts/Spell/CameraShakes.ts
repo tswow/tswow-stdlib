@@ -1,6 +1,6 @@
-import { DBC } from "wotlkdata/wotlkdata/dbc/DBCFiles";
-import { CameraShakesQuery, CameraShakesRow } from "wotlkdata/wotlkdata/dbc/types/CameraShakes";
-import { Table } from "wotlkdata/wotlkdata/table/Table";
+import { DBC } from "wowdata/wowdata/dbc/DBCFiles";
+import { CameraShakesQuery, CameraShakesRow } from "wowdata/wowdata/dbc/types/CameraShakes";
+import { Table } from "wowdata/wowdata/table/Table";
 import { MainEntity } from "../Misc/Entity";
 import { DynamicIDGenerator, Ids } from "../Misc/Ids";
 import { RegistryDynamic } from "../Refs/Registry";

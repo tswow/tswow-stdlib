@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { finish, LUAXML } from "wotlkdata";
-import { FileChangeModule } from "wotlkdata/util/FileChanges";
-import { wfs } from "wotlkdata/util/FileSystem";
-import { wsys } from "wotlkdata/util/System";
-import { ipaths } from "wotlkdata/wotlkdata/Settings";
+import { finish, LUAXML } from "wowdata";
+import { FileChangeModule } from "wowdata/util/FileChanges";
+import { wfs } from "wowdata/util/FileSystem";
+import { wsys } from "wowdata/util/System";
+import { ipaths } from "wowdata/wowdata/Settings";
 import { generateBLP } from "./BLP";
 import { getEffectiveFile, onDirtyPNG, splitPng } from "./PNG";
 

@@ -14,5 +14,5 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { FileChangeModule } from "wotlkdata/util/FileChanges";
+import { FileChangeModule } from "wowdata/util/FileChanges";
 export const ASSET_CHANGES = new FileChangeModule('assets')

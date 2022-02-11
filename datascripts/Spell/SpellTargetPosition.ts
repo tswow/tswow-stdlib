@@ -1,5 +1,5 @@
-import { SQL } from "wotlkdata/wotlkdata/sql/SQLFiles";
-import { spell_target_positionRow } from "wotlkdata/wotlkdata/sql/types/spell_target_position";
+import { SQL } from "wowdata/wowdata/sql/SQLFiles";
+import { spell_target_positionRow } from "wowdata/wowdata/sql/types/spell_target_position";
 import { MapRegistry } from "../Map/Maps";
 import { MaybeSQLEntity } from "../Misc/SQLDBCEntity";
 

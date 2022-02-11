@@ -1,9 +1,9 @@
-import { DBC } from "wotlkdata";
-import { MulticastCell } from "wotlkdata/wotlkdata/cell/cells/MulticastCell";
-import { CellSystemTop } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { BattlemasterListQuery, BattlemasterListRow } from "wotlkdata/wotlkdata/dbc/types/BattlemasterList";
-import { SQL } from "wotlkdata/wotlkdata/sql/SQLFiles";
-import { battleground_templateRow } from "wotlkdata/wotlkdata/sql/types/battleground_template";
+import { DBC } from "wowdata";
+import { MulticastCell } from "wowdata/wowdata/cell/cells/MulticastCell";
+import { CellSystemTop } from "wowdata/wowdata/cell/systems/CellSystem";
+import { BattlemasterListQuery, BattlemasterListRow } from "wowdata/wowdata/dbc/types/BattlemasterList";
+import { SQL } from "wowdata/wowdata/sql/SQLFiles";
+import { battleground_templateRow } from "wowdata/wowdata/sql/types/battleground_template";
 import { Ids } from "../Misc/Ids";
 import { MinMaxCell } from "../Misc/LimitCells";
 import { BattlegroundDescription } from "./BattleroundDescriptions";

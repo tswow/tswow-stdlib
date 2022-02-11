@@ -1,6 +1,6 @@
-import { DBC } from "wotlkdata";
-import { SoundEntriesAdvancedQuery, SoundEntriesAdvancedRow } from "wotlkdata/wotlkdata/dbc/types/SoundEntriesAdvanced";
-import { Table } from "wotlkdata/wotlkdata/table/Table";
+import { DBC } from "wowdata";
+import { SoundEntriesAdvancedQuery, SoundEntriesAdvancedRow } from "wowdata/wowdata/dbc/types/SoundEntriesAdvanced";
+import { Table } from "wowdata/wowdata/table/Table";
 import { MainEntity } from "../Misc/Entity";
 import { DynamicIDGenerator, Ids } from "../Misc/Ids";
 import { RegistryDynamic } from "../Refs/Registry";

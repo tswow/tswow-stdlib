@@ -14,14 +14,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { SQL } from "wotlkdata";
-import { EnumCellTransform } from "wotlkdata/wotlkdata/cell/cells/EnumCell";
-import { makeMaskCell32 } from "wotlkdata/wotlkdata/cell/cells/MaskCell";
-import { Transient } from "wotlkdata/wotlkdata/cell/serialization/Transient";
-import { CellSystem } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { MultiRowSystem } from "wotlkdata/wotlkdata/cell/systems/MultiRowSystem";
-import { gameobject_templateRow } from "wotlkdata/wotlkdata/sql/types/gameobject_template";
-import { gameobject_template_addonRow } from "wotlkdata/wotlkdata/sql/types/gameobject_template_addon";
+import { SQL } from "wowdata";
+import { EnumCellTransform } from "wowdata/wowdata/cell/cells/EnumCell";
+import { makeMaskCell32 } from "wowdata/wowdata/cell/cells/MaskCell";
+import { Transient } from "wowdata/wowdata/cell/serialization/Transient";
+import { CellSystem } from "wowdata/wowdata/cell/systems/CellSystem";
+import { MultiRowSystem } from "wowdata/wowdata/cell/systems/MultiRowSystem";
+import { gameobject_templateRow } from "wowdata/wowdata/sql/types/gameobject_template";
+import { gameobject_template_addonRow } from "wowdata/wowdata/sql/types/gameobject_template_addon";
 import { AreaRegistry } from "../Area/Area";
 import { BroadcastTextRegistry } from "../BroadcastText/BroadcastText";
 import { GossipRegistry } from "../Gossip/Gossips";

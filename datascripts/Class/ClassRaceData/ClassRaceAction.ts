@@ -1,7 +1,7 @@
-import { EnumCellTransform } from "wotlkdata/wotlkdata/cell/cells/EnumCell";
-import { MultiRowSystem } from "wotlkdata/wotlkdata/cell/systems/MultiRowSystem";
-import { SQL } from "wotlkdata/wotlkdata/sql/SQLFiles";
-import { playercreateinfo_actionRow } from "wotlkdata/wotlkdata/sql/types/playercreateinfo_action";
+import { EnumCellTransform } from "wowdata/wowdata/cell/cells/EnumCell";
+import { MultiRowSystem } from "wowdata/wowdata/cell/systems/MultiRowSystem";
+import { SQL } from "wowdata/wowdata/sql/SQLFiles";
+import { playercreateinfo_actionRow } from "wowdata/wowdata/sql/types/playercreateinfo_action";
 import { ItemTemplateRegistry } from "../../Item/ItemTemplate";
 import { TransformedEntity } from "../../Misc/Entity";
 import { SpellRegistry } from "../../Spell/Spells";

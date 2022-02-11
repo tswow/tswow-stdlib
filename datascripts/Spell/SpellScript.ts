@@ -1,5 +1,5 @@
-import { SQL } from "wotlkdata";
-import { CellSystem } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
+import { SQL } from "wowdata";
+import { CellSystem } from "wowdata/wowdata/cell/systems/CellSystem";
 import { Spell } from "./Spell";
 
 export class SpellScript extends CellSystem<Spell> {

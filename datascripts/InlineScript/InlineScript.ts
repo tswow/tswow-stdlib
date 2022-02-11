@@ -1,10 +1,10 @@
 import fs from "fs";
 import path from "path";
 import ts from "typescript";
-import { finish } from "wotlkdata";
-import { mpath, wfs } from "wotlkdata/util/FileSystem";
-import { WDirectory, WNode } from "wotlkdata/util/FileTree";
-import { datasetName } from "wotlkdata/wotlkdata/Settings";
+import { finish } from "wowdata";
+import { mpath, wfs } from "wowdata/util/FileSystem";
+import { WDirectory, WNode } from "wowdata/util/FileTree";
+import { datasetName } from "wowdata/wowdata/Settings";
 import { getEventName, getEventNames } from "./InlineEventNames";
 import { getTSChildren } from "./InlineTSHelpers";
 

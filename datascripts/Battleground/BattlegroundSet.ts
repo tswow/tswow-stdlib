@@ -1,6 +1,6 @@
-import { DBC, SQL } from "wotlkdata";
-import { MultiRowSystem } from "wotlkdata/wotlkdata/cell/systems/MultiRowSystem";
-import { battleground_setsRow } from "wotlkdata/wotlkdata/sql/types/battleground_sets";
+import { DBC, SQL } from "wowdata";
+import { MultiRowSystem } from "wowdata/wowdata/cell/systems/MultiRowSystem";
+import { battleground_setsRow } from "wowdata/wowdata/sql/types/battleground_sets";
 import { MinMaxCell } from "../Misc/LimitCells";
 import { BattlegroundBase } from "./BattlegroundBase";
 

@@ -14,15 +14,15 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { DBC, finish, SQL } from "wotlkdata";
-import { EnumCellTransform } from "wotlkdata/wotlkdata/cell/cells/EnumCell";
-import { MulticastCell } from "wotlkdata/wotlkdata/cell/cells/MulticastCell";
-import { CellSystem, LocSystem, MulticastLocCell } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { BattlemasterListRow } from "wotlkdata/wotlkdata/dbc/types/BattlemasterList";
-import { MapRow } from "wotlkdata/wotlkdata/dbc/types/Map";
-import { battleground_templateRow } from "wotlkdata/wotlkdata/sql/types/battleground_template";
-import { instance_addonRow } from "wotlkdata/wotlkdata/sql/types/instance_addon";
-import { instance_templateRow } from "wotlkdata/wotlkdata/sql/types/instance_template";
+import { DBC, finish, SQL } from "wowdata";
+import { EnumCellTransform } from "wowdata/wowdata/cell/cells/EnumCell";
+import { MulticastCell } from "wowdata/wowdata/cell/cells/MulticastCell";
+import { CellSystem, LocSystem, MulticastLocCell } from "wowdata/wowdata/cell/systems/CellSystem";
+import { BattlemasterListRow } from "wowdata/wowdata/dbc/types/BattlemasterList";
+import { MapRow } from "wowdata/wowdata/dbc/types/Map";
+import { battleground_templateRow } from "wowdata/wowdata/sql/types/battleground_template";
+import { instance_addonRow } from "wowdata/wowdata/sql/types/instance_addon";
+import { instance_templateRow } from "wowdata/wowdata/sql/types/instance_template";
 import { createBgBase } from "../Battleground/BattlegroundBase";
 import { BattlegroundBrackets } from "../Battleground/BattlegroundBracket";
 import { BattlegroundSafeLoc } from "../Battleground/BattlegroundSafeLocs";

@@ -14,9 +14,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { Transient } from "wotlkdata/wotlkdata/cell/serialization/Transient";
-import { CellSystem } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { SpellRow } from "wotlkdata/wotlkdata/dbc/types/Spell";
+import { Transient } from "wowdata/wowdata/cell/serialization/Transient";
+import { CellSystem } from "wowdata/wowdata/cell/systems/CellSystem";
+import { SpellRow } from "wowdata/wowdata/dbc/types/Spell";
 export class SpellItemEquips<T> extends CellSystem<T> {
     @Transient
     protected row: SpellRow;

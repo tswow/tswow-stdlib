@@ -1,5 +1,5 @@
-import { CellIndexWrapper } from "wotlkdata/wotlkdata/cell/cells/CellArray";
-import { GameObjectDisplayInfoRow } from "wotlkdata/wotlkdata/dbc/types/GameObjectDisplayInfo";
+import { CellIndexWrapper } from "wowdata/wowdata/cell/cells/CellArray";
+import { GameObjectDisplayInfoRow } from "wowdata/wowdata/dbc/types/GameObjectDisplayInfo";
 import { BoundingBox } from "../Misc/BoundingBox";
 import { ChildEntity, MainEntity } from "../Misc/Entity";
 import { SoundEntryRegistry } from "../Sound/SoundEntry";

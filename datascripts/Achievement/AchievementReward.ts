@@ -1,9 +1,9 @@
-import { Cell, CPrim } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { CellSystem } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { Language } from "wotlkdata/wotlkdata/dbc/Localization";
-import { loc_constructor } from "wotlkdata/wotlkdata/primitives";
-import { SQL } from "wotlkdata/wotlkdata/sql/SQLFiles";
-import { achievement_rewardRow } from "wotlkdata/wotlkdata/sql/types/achievement_reward";
+import { Cell, CPrim } from "wowdata/wowdata/cell/cells/Cell";
+import { CellSystem } from "wowdata/wowdata/cell/systems/CellSystem";
+import { Language } from "wowdata/wowdata/dbc/Localization";
+import { loc_constructor } from "wowdata/wowdata/primitives";
+import { SQL } from "wowdata/wowdata/sql/SQLFiles";
+import { achievement_rewardRow } from "wowdata/wowdata/sql/types/achievement_reward";
 import { MaybeSQLEntity } from "../Misc/SQLDBCEntity";
 import { SQLLocSystem } from "../Misc/SQLLocSystem";
 import { Achievement } from "./Achievement";

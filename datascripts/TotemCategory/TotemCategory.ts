@@ -1,8 +1,8 @@
-import { DBC } from "wotlkdata";
-import { Cell } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { MaskCell32 } from "wotlkdata/wotlkdata/cell/cells/MaskCell";
-import { TotemCategoryQuery, TotemCategoryRow } from "wotlkdata/wotlkdata/dbc/types/TotemCategory";
-import { Table } from "wotlkdata/wotlkdata/table/Table";
+import { DBC } from "wowdata";
+import { Cell } from "wowdata/wowdata/cell/cells/Cell";
+import { MaskCell32 } from "wowdata/wowdata/cell/cells/MaskCell";
+import { TotemCategoryQuery, TotemCategoryRow } from "wowdata/wowdata/dbc/types/TotemCategory";
+import { Table } from "wowdata/wowdata/table/Table";
 import { MainEntity } from "../Misc/Entity";
 import { DynamicIDGenerator, Ids } from "../Misc/Ids";
 import { makeRefDynamic } from "../Refs/Ref";

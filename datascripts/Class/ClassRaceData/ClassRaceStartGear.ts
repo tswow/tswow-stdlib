@@ -1,9 +1,9 @@
-import { DBC } from "wotlkdata";
-import { EnumCon, makeEnum } from "wotlkdata/wotlkdata/cell/cells/EnumCell";
-import { ArrayEntry, ArraySystem } from "wotlkdata/wotlkdata/cell/systems/ArraySystem";
-import { CellSystem } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { CharStartOutfitQuery, CharStartOutfitRow } from "wotlkdata/wotlkdata/dbc/types/CharStartOutfit";
-import { Table } from "wotlkdata/wotlkdata/table/Table";
+import { DBC } from "wowdata";
+import { EnumCon, makeEnum } from "wowdata/wowdata/cell/cells/EnumCell";
+import { ArrayEntry, ArraySystem } from "wowdata/wowdata/cell/systems/ArraySystem";
+import { CellSystem } from "wowdata/wowdata/cell/systems/CellSystem";
+import { CharStartOutfitQuery, CharStartOutfitRow } from "wowdata/wowdata/dbc/types/CharStartOutfit";
+import { Table } from "wowdata/wowdata/table/Table";
 import { ItemInventoryType } from "../../Item/ItemInventoryType";
 import { ItemTemplateRegistry } from "../../Item/ItemTemplate";
 import { MainEntity } from "../../Misc/Entity";

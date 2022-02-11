@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { DBC, finish } from "wotlkdata";
-import { makeMaskCell32, MaskCell32 } from "wotlkdata/wotlkdata/cell/cells/MaskCell";
-import { MultiRowSystem } from "wotlkdata/wotlkdata/cell/systems/MultiRowSystem";
-import { TalentTabRow } from "wotlkdata/wotlkdata/dbc/types/TalentTab";
-import { BuildArgs } from "wotlkdata/wotlkdata/Settings";
+import { DBC, finish } from "wowdata";
+import { makeMaskCell32, MaskCell32 } from "wowdata/wowdata/cell/cells/MaskCell";
+import { MultiRowSystem } from "wowdata/wowdata/cell/systems/MultiRowSystem";
+import { TalentTabRow } from "wowdata/wowdata/dbc/types/TalentTab";
+import { BuildArgs } from "wowdata/wowdata/Settings";
 import { ClassMask } from "../Class/ClassRegistry";
 import { MainEntity } from "../Misc/Entity";
 import { Ids } from "../Misc/Ids";

@@ -1,4 +1,4 @@
-import { EnumCell, EnumCon, makeEnum } from "wotlkdata/wotlkdata/cell/cells/EnumCell";
+import { EnumCell, EnumCon, makeEnum } from "wowdata/wowdata/cell/cells/EnumCell";
 import { Gem } from "./Gem";
 
 export enum GemType {

@@ -1,8 +1,8 @@
-import { DBC } from "wotlkdata";
-import { Cell } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { CellSystemTop } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { TaxiPathQuery, TaxiPathRow } from "wotlkdata/wotlkdata/dbc/types/TaxiPath";
-import { Table } from "wotlkdata/wotlkdata/table/Table";
+import { DBC } from "wowdata";
+import { Cell } from "wowdata/wowdata/cell/cells/Cell";
+import { CellSystemTop } from "wowdata/wowdata/cell/systems/CellSystem";
+import { TaxiPathQuery, TaxiPathRow } from "wowdata/wowdata/dbc/types/TaxiPath";
+import { Table } from "wowdata/wowdata/table/Table";
 import { MainEntity } from "../Misc/Entity";
 import { Ids, StaticIDGenerator } from "../Misc/Ids";
 import { MoneyCell } from "../Misc/MoneyCell";

@@ -1,7 +1,7 @@
-import { DBC } from "wotlkdata";
-import { ArrayEntry, ArraySystem } from "wotlkdata/wotlkdata/cell/systems/ArraySystem";
-import { ItemExtendedCostQuery, ItemExtendedCostRow } from "wotlkdata/wotlkdata/dbc/types/ItemExtendedCost";
-import { Table } from "wotlkdata/wotlkdata/table/Table";
+import { DBC } from "wowdata";
+import { ArrayEntry, ArraySystem } from "wowdata/wowdata/cell/systems/ArraySystem";
+import { ItemExtendedCostQuery, ItemExtendedCostRow } from "wowdata/wowdata/dbc/types/ItemExtendedCost";
+import { Table } from "wowdata/wowdata/table/Table";
 import { ItemTemplateRegistry } from "../Item/ItemTemplate";
 import { MainEntity } from "../Misc/Entity";
 import { DynamicIDGenerator, Ids } from "../Misc/Ids";

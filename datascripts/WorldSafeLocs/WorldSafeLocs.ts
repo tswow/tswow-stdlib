@@ -1,8 +1,8 @@
-import { DBC, SQL } from "wotlkdata";
-import { Cell } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { EnumCon, makeEnum } from "wotlkdata/wotlkdata/cell/cells/EnumCell";
-import { WorldSafelocsQuery, WorldSafelocsRow } from "wotlkdata/wotlkdata/dbc/types/WorldSafelocs";
-import { Table } from "wotlkdata/wotlkdata/table/Table";
+import { DBC, SQL } from "wowdata";
+import { Cell } from "wowdata/wowdata/cell/cells/Cell";
+import { EnumCon, makeEnum } from "wowdata/wowdata/cell/cells/EnumCell";
+import { WorldSafelocsQuery, WorldSafelocsRow } from "wowdata/wowdata/dbc/types/WorldSafelocs";
+import { Table } from "wowdata/wowdata/table/Table";
 import { MainEntity } from "../Misc/Entity";
 import { DynamicIDGenerator, Ids } from "../Misc/Ids";
 import { PositionMapXYZCell } from "../Misc/PositionCell";

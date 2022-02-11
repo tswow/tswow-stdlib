@@ -14,8 +14,8 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { Cell } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { Edit } from "wotlkdata/wotlkdata/luaxml/TextFile";
+import { Cell } from "wowdata/wowdata/cell/cells/Cell";
+import { Edit } from "wowdata/wowdata/luaxml/TextFile";
 
 export class LuaStringProperty<T> extends Cell<string,T> {
     protected edit: Edit;

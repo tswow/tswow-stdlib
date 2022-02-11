@@ -1,9 +1,9 @@
-import { Cell } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { EnumCell } from "wotlkdata/wotlkdata/cell/cells/EnumCell";
-import { CellSystem } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { SQL } from "wotlkdata/wotlkdata/sql/SQLFiles";
-import { game_eventQuery, game_eventRow } from "wotlkdata/wotlkdata/sql/types/game_event";
-import { Table } from "wotlkdata/wotlkdata/table/Table";
+import { Cell } from "wowdata/wowdata/cell/cells/Cell";
+import { EnumCell } from "wowdata/wowdata/cell/cells/EnumCell";
+import { CellSystem } from "wowdata/wowdata/cell/systems/CellSystem";
+import { SQL } from "wowdata/wowdata/sql/SQLFiles";
+import { game_eventQuery, game_eventRow } from "wowdata/wowdata/sql/types/game_event";
+import { Table } from "wowdata/wowdata/table/Table";
 import { getInlineID } from "../InlineScript/InlineScript";
 import { convertTime, DurationCell, TimeUnit } from "../Misc/DurationCell";
 import { MainEntity } from "../Misc/Entity";

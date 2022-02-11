@@ -1,7 +1,7 @@
-import { makeMaskCell32 } from "wotlkdata/wotlkdata/cell/cells/MaskCell";
-import { MultiRowSystem } from "wotlkdata/wotlkdata/cell/systems/MultiRowSystem";
-import { TaxiPathNodeRow } from "wotlkdata/wotlkdata/dbc/types/TaxiPathNode";
-import { DBC } from "wotlkdata/wotlkdata/wotlkdata";
+import { DBC } from "wowdata";
+import { makeMaskCell32 } from "wowdata/wowdata/cell/cells/MaskCell";
+import { MultiRowSystem } from "wowdata/wowdata/cell/systems/MultiRowSystem";
+import { TaxiPathNodeRow } from "wowdata/wowdata/dbc/types/TaxiPathNode";
 import { MainEntity } from "../Misc/Entity";
 import { Ids } from "../Misc/Ids";
 import { Position } from "../Misc/Position";

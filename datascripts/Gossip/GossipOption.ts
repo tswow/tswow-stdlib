@@ -14,12 +14,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { SQL } from "wotlkdata";
-import { makeEnumCell } from "wotlkdata/wotlkdata/cell/cells/EnumCell";
-import { Transient } from "wotlkdata/wotlkdata/cell/serialization/Transient";
-import { CellSystemTop } from "wotlkdata/wotlkdata/cell/systems/CellSystem";
-import { MultiRowSystem } from "wotlkdata/wotlkdata/cell/systems/MultiRowSystem";
-import { gossip_menu_optionRow } from "wotlkdata/wotlkdata/sql/types/gossip_menu_option";
+import { SQL } from "wowdata";
+import { makeEnumCell } from "wowdata/wowdata/cell/cells/EnumCell";
+import { Transient } from "wowdata/wowdata/cell/serialization/Transient";
+import { CellSystemTop } from "wowdata/wowdata/cell/systems/CellSystem";
+import { MultiRowSystem } from "wowdata/wowdata/cell/systems/MultiRowSystem";
+import { gossip_menu_optionRow } from "wowdata/wowdata/sql/types/gossip_menu_option";
 import { BroadcastTextRegistry } from "../BroadcastText/BroadcastText";
 import { Condition } from "../Conditions/Condition";
 import { Gossip } from "./Gossip";

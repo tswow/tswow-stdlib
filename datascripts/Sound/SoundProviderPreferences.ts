@@ -1,7 +1,7 @@
-import { DBC } from "wotlkdata";
-import { makeMaskCell32 } from "wotlkdata/wotlkdata/cell/cells/MaskCell";
-import { SoundProviderPreferencesQuery, SoundProviderPreferencesRow } from "wotlkdata/wotlkdata/dbc/types/SoundProviderPreferences";
-import { Table } from "wotlkdata/wotlkdata/table/Table";
+import { DBC } from "wowdata";
+import { makeMaskCell32 } from "wowdata/wowdata/cell/cells/MaskCell";
+import { SoundProviderPreferencesQuery, SoundProviderPreferencesRow } from "wowdata/wowdata/dbc/types/SoundProviderPreferences";
+import { Table } from "wowdata/wowdata/table/Table";
 import { MainEntity } from "../Misc/Entity";
 import { DynamicIDGenerator, Ids } from "../Misc/Ids";
 import { RegistryDynamic } from "../Refs/Registry";

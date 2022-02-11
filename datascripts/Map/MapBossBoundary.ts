@@ -14,10 +14,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { EnumCellTransform } from "wotlkdata/wotlkdata/cell/cells/EnumCell";
-import { MultiRowSystem } from "wotlkdata/wotlkdata/cell/systems/MultiRowSystem";
-import { SQL } from "wotlkdata/wotlkdata/sql/SQLFiles";
-import { instance_boss_boundaryRow } from "wotlkdata/wotlkdata/sql/types/instance_boss_boundary";
+import { EnumCellTransform } from "wowdata/wowdata/cell/cells/EnumCell";
+import { MultiRowSystem } from "wowdata/wowdata/cell/systems/MultiRowSystem";
+import { SQL } from "wowdata/wowdata/sql/SQLFiles";
+import { instance_boss_boundaryRow } from "wowdata/wowdata/sql/types/instance_boss_boundary";
 import { TransformedEntity } from "../Misc/Entity";
 import { PositionXYCell } from "../Misc/PositionCell";
 

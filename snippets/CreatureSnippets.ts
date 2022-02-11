@@ -1,4 +1,4 @@
-import { std } from "../datascripts/tswow-stdlib-data";
+import { std } from "../datascripts/datascripts";
 
 /**
  * Snippet: Creature::Aggressive Mob
@@ -6,9 +6,9 @@ import { std } from "../datascripts/tswow-stdlib-data";
  */
 std.CreatureTemplates.create(/*@1*/'mod'/**/,/*@2*/'id'/**/)
     .Name.enGB.set('Aggressive Mob')
-    .FactionTemplate.setNeutralHostile()
+    .FactionTemplate.NEUTRAL_HOSTILE.set()
     .Models.addIds(29419)
-    .MovementType.setRandomMovement()
+    .MovementType.RANDOM_MOVEMENT.set()
 
     // Stats
     .Stats.ArmorMod.set(1)
@@ -16,7 +16,7 @@ std.CreatureTemplates.create(/*@1*/'mod'/**/,/*@2*/'id'/**/)
     .Stats.ExperienceMod.set(1)
     .Stats.HealthMod.set(1)
     .Stats.ManaMod.set(1)
-    .UnitClass.setWarrior()
+    .UnitClass.WARRIOR.set()
     .Level.set(1,1)
 
     // Loot
@@ -35,10 +35,10 @@ std.CreatureTemplates.create(/*@1*/'mod'/**/,/*@2*/'id'/**/)
     .Name.enGB.set('Vendor NPC')
     .Subname.enGB.set('Vendor')
     .Models.addIds(29419)
-    .FactionTemplate.setNeutralPassive()
+    .FactionTemplate.NEUTRAL_PASSIVE.set()
 
-    .NPCFlags.Repairer.set(true)
-    .Vendor.addItem(25)
+    .NPCFlags.REPAIRER.set(true)
+    .Vendor.add(25)
     // add items here
 /** end-snippet */
 
@@ -50,19 +50,19 @@ std.CreatureTemplates.create(/*@1*/'mod'/**/,/*@2*/'id'/**/)
     .Name.enGB.set('Innkeeper NPC')
     .Subname.enGB.set('Innkeeper')
     .Models.addIds(29419)
-    .FactionTemplate.setNeutralPassive()
-    .NPCFlags.Gossip.set(true)
-    .NPCFlags.Vendor.set(true)
-    .NPCFlags.Innkeeper.set(true)
-    .NPCFlags.Trainer.set(true)
-    .NPCFlags.ClassTrainer.set(true)
-    .Gossip.modRefCopy((gossip)=>{
+    .FactionTemplate.NEUTRAL_PASSIVE.set()
+    .NPCFlags.GOSSIP.set(true)
+    .NPCFlags.VENDOR.set(true)
+    .NPCFlags.INNKEEPER.set(true)
+    .NPCFlags.TRAINER.set(true)
+    .NPCFlags.CLASS_TRAINER.set(true)
+    .Gossip.modNew((gossip)=>{
         gossip
             .Text.add({enGB:'Welcome to my inn'})
             .Options.addMod(option=>{
-                option.Text.MaleText.enGB.set('Make this inn your home')
-                .Action.setInnkeeper()
-                .Icon.setCogwheel()
+                option.Text.setSimple({enGB:'Make this inn your home'})
+                .Action.INNKEEPER.set()
+                .Icon.COGWHEEL.set()
             })
             .Options.addMod(option=>{
                 option.Text.MaleText.enGB.set('Let me browse your goods')

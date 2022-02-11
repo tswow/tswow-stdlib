@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { Cell } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { makeEnumCell } from "wotlkdata/wotlkdata/cell/cells/EnumCell";
-import { makeMaskCell32 } from "wotlkdata/wotlkdata/cell/cells/MaskCell";
-import { SQL } from "wotlkdata/wotlkdata/sql/SQLFiles";
-import { spell_procRow } from "wotlkdata/wotlkdata/sql/types/spell_proc";
+import { Cell } from "wowdata/wowdata/cell/cells/Cell";
+import { makeEnumCell } from "wowdata/wowdata/cell/cells/EnumCell";
+import { makeMaskCell32 } from "wowdata/wowdata/cell/cells/MaskCell";
+import { SQL } from "wowdata/wowdata/sql/SQLFiles";
+import { spell_procRow } from "wowdata/wowdata/sql/types/spell_proc";
 import { PercentCell } from "../Misc/PercentCell";
 import { SchoolMask } from "../Misc/School";
 import { MaybeSQLEntity } from "../Misc/SQLDBCEntity";

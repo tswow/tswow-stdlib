@@ -1,7 +1,7 @@
-import { DBC } from "wotlkdata";
-import { EnumCellTransform } from "wotlkdata/wotlkdata/cell/cells/EnumCell";
-import { HolidaysQuery, HolidaysRow } from "wotlkdata/wotlkdata/dbc/types/Holidays";
-import { Table } from "wotlkdata/wotlkdata/table/Table";
+import { DBC } from "wowdata";
+import { EnumCellTransform } from "wowdata/wowdata/cell/cells/EnumCell";
+import { HolidaysQuery, HolidaysRow } from "wowdata/wowdata/dbc/types/Holidays";
+import { Table } from "wowdata/wowdata/table/Table";
 import { TransformedEntity } from "../Misc/Entity";
 import { DynamicIDGenerator, Ids } from "../Misc/Ids";
 import { RegistryDynamicNoClone } from "../Refs/Registry";

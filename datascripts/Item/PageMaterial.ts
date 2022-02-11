@@ -1,4 +1,4 @@
-import { CellWrapper } from "wotlkdata/wotlkdata/cell/cells/Cell";
+import { CellWrapper } from "wowdata/wowdata/cell/cells/Cell";
 
 export const DEFAULT_PAGE_MATERIALS = {
       PARCHMENT : 1

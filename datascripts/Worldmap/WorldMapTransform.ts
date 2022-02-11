@@ -1,6 +1,6 @@
-import { DBC } from "wotlkdata";
-import { WorldMapTransformsQuery, WorldMapTransformsRow } from "wotlkdata/wotlkdata/dbc/types/WorldMapTransforms";
-import { Table } from "wotlkdata/wotlkdata/table/Table";
+import { DBC } from "wowdata";
+import { WorldMapTransformsQuery, WorldMapTransformsRow } from "wowdata/wowdata/dbc/types/WorldMapTransforms";
+import { Table } from "wowdata/wowdata/table/Table";
 import { MapRegistry } from "../Map/Maps";
 import { MainEntity } from "../Misc/Entity";
 import { DynamicIDGenerator, Ids } from "../Misc/Ids";

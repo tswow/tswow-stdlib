@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { FileChangeModule } from "wotlkdata/util/FileChanges"
-import { wfs } from "wotlkdata/util/FileSystem"
-import { FilePath, WFile } from "wotlkdata/util/FileTree"
-import { wsys } from "wotlkdata/util/System"
-import { ipaths } from "wotlkdata/wotlkdata/Settings"
+import { FileChangeModule } from "wowdata/util/FileChanges"
+import { wfs } from "wowdata/util/FileSystem"
+import { FilePath, WFile } from "wowdata/util/FileTree"
+import { wsys } from "wowdata/util/System"
+import { ipaths } from "wowdata/wowdata/Settings"
 
 const MAGICK = process.platform === 'win32'
     ? `"${ipaths.bin.im.magick.abs()}" -define png:color-type=6`

@@ -1,7 +1,7 @@
-import { DBC } from "wotlkdata";
-import { CellWrapper } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { makeEnumCell } from "wotlkdata/wotlkdata/cell/cells/EnumCell";
-import { makeMaskCell32, MaskCell32 } from "wotlkdata/wotlkdata/cell/cells/MaskCell";
+import { DBC } from "wowdata";
+import { CellWrapper } from "wowdata/wowdata/cell/cells/Cell";
+import { makeEnumCell } from "wowdata/wowdata/cell/cells/EnumCell";
+import { makeMaskCell32, MaskCell32 } from "wowdata/wowdata/cell/cells/MaskCell";
 import { CreatureType, CreatureTypeMask } from "../../Creature/CreatureType";
 import { FactionRegistry } from "../../Faction/Faction";
 import { Ids } from "../../Misc/Ids";

@@ -1,4 +1,4 @@
-import { Cell } from "wotlkdata/wotlkdata/cell/cells/Cell";
+import { Cell } from "wowdata/wowdata/cell/cells/Cell";
 
 export class BoolCell<T> extends Cell<boolean,T> {
     protected cell: Cell<number,any>

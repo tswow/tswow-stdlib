@@ -1,7 +1,7 @@
-import { Cell, CellWrapper } from "wotlkdata/wotlkdata/cell/cells/Cell";
-import { CellReadOnly, CellWrapperReadOnly } from "wotlkdata/wotlkdata/cell/cells/CellReadOnly";
-import { EnumCon, EnumValueRead, EnumValueWrite } from "wotlkdata/wotlkdata/cell/cells/EnumCell";
-import { makePrototype } from "wotlkdata/wotlkdata/cell/cells/PrototypeRegistry";
+import { Cell, CellWrapper } from "wowdata/wowdata/cell/cells/Cell";
+import { CellReadOnly, CellWrapperReadOnly } from "wowdata/wowdata/cell/cells/CellReadOnly";
+import { EnumCon, EnumValueRead, EnumValueWrite } from "wowdata/wowdata/cell/cells/EnumCell";
+import { makePrototype } from "wowdata/wowdata/cell/cells/PrototypeRegistry";
 
 // TODO: move/rename this somewhere suitable
 export class SelfRef<T,V> {

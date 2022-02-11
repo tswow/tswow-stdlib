@@ -14,8 +14,8 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-import { FilePath, resfp } from "wotlkdata/util/FileTree";
-import { wsys } from "wotlkdata/util/System";
+import { FilePath, resfp } from "wowdata/util/FileTree";
+import { wsys } from "wowdata/util/System";
 
 // linux?
 export const BLP_EXE = process.platform === 'win32'

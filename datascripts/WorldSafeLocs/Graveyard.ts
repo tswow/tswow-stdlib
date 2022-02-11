@@ -1,7 +1,7 @@
-import { makeMaskCell32 } from "wotlkdata/wotlkdata/cell/cells/MaskCell";
-import { MultiRowSystem } from "wotlkdata/wotlkdata/cell/systems/MultiRowSystem";
-import { SQL } from "wotlkdata/wotlkdata/sql/SQLFiles";
-import { graveyard_zoneRow } from "wotlkdata/wotlkdata/sql/types/graveyard_zone";
+import { makeMaskCell32 } from "wowdata/wowdata/cell/cells/MaskCell";
+import { MultiRowSystem } from "wowdata/wowdata/cell/systems/MultiRowSystem";
+import { SQL } from "wowdata/wowdata/sql/SQLFiles";
+import { graveyard_zoneRow } from "wowdata/wowdata/sql/types/graveyard_zone";
 import { MainEntity } from "../Misc/Entity";
 import { Team } from "../Misc/TeamEnum";
 import { WorldSafeLoc, WorldSafeLocRegistry } from "./WorldSafeLocs";

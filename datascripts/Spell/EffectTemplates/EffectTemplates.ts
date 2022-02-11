@@ -1,5 +1,5 @@
-import { makeEnumCell } from "wotlkdata/wotlkdata/cell/cells/EnumCell";
-import { makeMaskCell32 } from "wotlkdata/wotlkdata/cell/cells/MaskCell";
+import { makeEnumCell } from "wowdata/wowdata/cell/cells/EnumCell";
+import { makeMaskCell32 } from "wowdata/wowdata/cell/cells/MaskCell";
 import { CreatureTemplateRegistry } from "../../Creature/Creatures";
 import { EnchantmentRegistry } from "../../Enchant/Enchantment";
 import { LanguageRegistry } from "../../Languages/Languages";
